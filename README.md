@@ -1,4 +1,6 @@
-Description
+![defiboard-green-logo](https://user-images.githubusercontent.com/102347045/169810777-01d0325c-e4f1-40ef-a563-f5e9b5bf2c43.png)
+
+# Description
 
 DefiBoard is mange portafolio, Budget Manger, Multiswap and multi-chain analytic dashboard, a tool for Investors, Cryptocurrence holders to visualize, analyse data on various blockchains and decentralization exchanges on one platform.
 
@@ -46,6 +48,7 @@ return request(
 [![Covalent Video](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)](https://vimeo.com/712816681 "- Click to Watch!")
 
 
+
 ## Coinbase: 
 by connecting coinbase you can make transactions.. click below to watch quick demo
 
@@ -56,9 +59,9 @@ by connecting coinbase you can make transactions.. click below to watch quick de
       chainId: 1,
     }
 ```
-[click here to see the code] (https://github.com/defiboard/defiboard-ui/blob/a4e719b61cea015c49c396d69f4272f2e7050bd1/web/assets/js/wallet/wallet.js)
+[click here to see the code](https://github.com/defiboard/defiboard-ui/blob/a4e719b61cea015c49c396d69f4272f2e7050bd1/web/assets/js/wallet/wallet.js)
  
- [![Coinbase Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
+[![Coinbase Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
 
 uniswap for widget swap
 
