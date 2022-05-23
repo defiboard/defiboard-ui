@@ -15,9 +15,9 @@ How it's made APIs Cryptocurrency Market Data: CoinGecko
 Stock Market Data: Yahoo Finance
 
 
-Bounty List :
+# Bounty List 
 
-##Transak : 
+## Transak : 
 Using Transac use can buy any cryptocurrency right from DefiBoard application below is the demo video please click below to watch quick demo
 
 
