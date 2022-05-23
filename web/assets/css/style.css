@@ -10,7 +10,7 @@ textarea {
   font-family: var(--font-family);
 }
 h1 {
-  font-size: 10px !important;
+  font-size: 10px;
 }
 
 body {

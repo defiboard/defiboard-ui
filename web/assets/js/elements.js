@@ -54,7 +54,7 @@ let buttonChatHelp = document.getElementById("button-chat-help");
 let buttonMessageSend = document.getElementById("button-message-send");
 
 let buttonPoolsSet = document.getElementById("button-searchPool");
-let getQuote = document.getElementById("button-getQuote");
+let buttonGetQuote = document.getElementById("button-getQuote");
 let buttonUNS = document.getElementById("login-UD");
 
 let inputMessage = document.getElementById("input-message");
