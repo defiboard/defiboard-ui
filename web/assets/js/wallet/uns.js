@@ -1,21 +1,18 @@
-
-
-
 //   const UAuth = window.UAuth;
 //   const uauth = new UAuth({
-//       // clientID: "8a299016-e842-44c1-a3aa-053bc414b253",
-//       // redirectUri: "http://192.168.0.105:3190/callback",
+//       clientID: "43869268-0171-434e-a186-98c931079541",
+//       redirectUri: "https://defiboard.info/callback",
 
 //        // Client credentials copied from https://unstoppabledomains.com/app-dashboard
-//   clientID: process.env.UAUTH_CLIENT_ID!,
-//   clientSecret: process.env.UAUTH_CLIENT_SECRET!,
+// //   clientID: process.env.UAUTH_CLIENT_ID!,
+//   clientSecret: "",
 
 //   // Requested scopes.
 //   scope: 'openid email wallet',
 
 //   // Redirect Uris copied from https://unstoppabledomains.com/app-dashboard
-//   redirectUri: process.env.UAUTH_REDIRECT_URI!,
-//   postLogoutRedirectUri: process.env.UAUTH_POST_LOGOUT_REDIRECT_URI!,
+// //   redirectUri: process.env.UAUTH_REDIRECT_URI!,
+//   postLogoutRedirectUri: "",
 
 //     });
 // buttonUNS.addEventListener("click",async () => {
