@@ -26,7 +26,8 @@ Transak : Using Transac use can buy any cryptocurrency right from DefiBoard appl
 
 
 
-Covalent: using covalent api for fetch data that used to track different currency, exchange and liquidity and more.. click below to watch quick demo
+## Covalent: 
+using covalent api for fetch data that used to track different currency, exchange and liquidity and more.. click below to watch quick demo
 
 
 ```
@@ -45,9 +46,20 @@ https://github.com/defiboard/defiboard-ui/blob/e01bcba399cfef34a6f8d9488539e53b3
 [![Covalent Video](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)](https://vimeo.com/712816681 "- Click to Watch!")
 
 
-Coinbase: by connecting coinbase you can make transactions.. click below to watch quick demo
+## Coinbase: 
+by connecting coinbase you can make transactions.. click below to watch quick demo
+
+```
+    options: {
+      appName: "Coinbase",
+      networkUrl: `https://mainnet.infura.io/v3/f0fd1047ce8742fdb72ae697111b9d64`,
+      chainId: 1,
+    }
+```
+click below to see full code
+https://github.com/defiboard/defiboard-ui/blob/a4e719b61cea015c49c396d69f4272f2e7050bd1/web/assets/js/wallet/wallet.js
  
- [![Covalent Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
+ [![Coinbase Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
 
 uniswap for widget swap
 
