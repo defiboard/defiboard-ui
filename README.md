@@ -61,7 +61,8 @@ by connecting coinbase you can make transactions.. click below to watch quick de
 ```
 [click here to see the code](https://github.com/defiboard/defiboard-ui/blob/a4e719b61cea015c49c396d69f4272f2e7050bd1/web/assets/js/wallet/wallet.js)
  
-[![Coinbase Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
+![conbase short](https://user-images.githubusercontent.com/102347045/169817411-6688a191-3adf-4dd9-bb58-153d847f8b14.gif)
+
 
 ```
     options: {
