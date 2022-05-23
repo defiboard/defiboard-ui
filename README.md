@@ -14,7 +14,23 @@ How it's made APIs Cryptocurrency Market Data: CoinGecko
 
 Stock Market Data: Yahoo Finance
 
-Covalent for pool data
+
+Bounty List :
+
+transak : Using Transac use can buy any cryptocurrency right from DefiBoard application 
+![transak](https://user-images.githubusercontent.com/102347045/169801750-1a7fad4c-8272-4f72-b2b7-3716708de1aa.png)
+
+[![Watch the video](https://youtu.be/vt5fpE0bzSY](https://vimeo.com/712807831))
+
+
+
+
+Covalent: we use covelnt api for fetch data that used to track diffrent curruncies, exchanges and liquidity and more..
+
+![covalent use](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)
+
+
+
 
 uniswap for widget swap
 
