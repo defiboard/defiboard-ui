@@ -17,19 +17,24 @@ Stock Market Data: Yahoo Finance
 
 Bounty List :
 
-Transak : Using Transac use can buy any cryptocurrency right from DefiBoard application below is the demo video please click to watch
+Transak : Using Transac use can buy any cryptocurrency right from DefiBoard application below is the demo video please click below to watch quick demo
+
+
 
 [![Transak Video](https://user-images.githubusercontent.com/102347045/169801750-1a7fad4c-8272-4f72-b2b7-3716708de1aa.png)](https://vimeo.com/712807831 " - Click to Watch!")
 
 
 
 
-Covalent: using covelnt api for fetch data that used to track diffrent curruncies, exchanges and liquidity and more.. click below to watch quick demo 
+Covalent: using covalent api for fetch data that used to track different currency, exchange and liquidity and more.. click below to watch quick demo
 
 
-[![Covalent Video](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)](https://vimeo.com/712814396 "- Click to Watch!")
+[![Covalent Video](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)](https://vimeo.com/712816681 "- Click to Watch!")
 
 
+Coinbase: by connecting coinbase you can make transactions.. click below to watch quick demo
+ 
+ [![Covalent Video](https://user-images.githubusercontent.com/102347045/169806558-81237643-0cb3-4a27-85af-77fa4774acef.png)](https://vimeo.com/712814396 "- Click to Watch!")
 
 uniswap for widget swap
 
