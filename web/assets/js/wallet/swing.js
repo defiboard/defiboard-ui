@@ -38,6 +38,6 @@ async function fetchSwingData(params) {
   );
 }
 
-getQuote.addEventListener("click", async () => {
+buttonGetQuote.addEventListener("click", async () => {
   alert("get quote clicked");
 });

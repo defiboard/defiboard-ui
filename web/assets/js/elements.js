@@ -22,7 +22,9 @@ let inputLoginUsername = document.getElementById("input-login-username");
 let inputLoginPassword = document.getElementById("input-login-password");
 let inputCreateUsername = document.getElementById("input-create-username");
 let inputCreatePassword = document.getElementById("input-create-password");
-let inputCreateRepeatPassword = document.getElementById("input-create-repeat-password");
+let inputCreateRepeatPassword = document.getElementById(
+  "input-create-repeat-password"
+);
 
 let buttonNewAccount = document.getElementById("button-new-account");
 let buttonLoginAccount = document.getElementById("button-login-account");
@@ -51,30 +53,40 @@ let buttonChatMenu = document.getElementById("button-chat-menu");
 let buttonChatHelp = document.getElementById("button-chat-help");
 let buttonMessageSend = document.getElementById("button-message-send");
 
-
 let buttonPoolsSet = document.getElementById("button-searchPool");
+let getQuote = document.getElementById("button-getQuote");
 let buttonUNS = document.getElementById("login-UD");
-
-
 
 let inputMessage = document.getElementById("input-message");
 
 let divPageDashboard = document.getElementById("dashboard-page");
 let divDashboardBudgetList = document.getElementById("dashboard-budget-list");
-let divDashboardHoldingsList = document.getElementById("dashboard-holdings-list");
-let divDashboardWatchlistList = document.getElementById("dashboard-watchlist-list");
+let divDashboardHoldingsList = document.getElementById(
+  "dashboard-holdings-list"
+);
+let divDashboardWatchlistList = document.getElementById(
+  "dashboard-watchlist-list"
+);
 
-let buttonDashboardBudgetTransactions = document.getElementById("button-dashboard-budget-transactions");
-let buttonDashboardBudgetEdit = document.getElementById("button-dashboard-budget-edit");
-let buttonDashboardWatchlistAdd = document.getElementById("button-dashboard-watchlist-add");
+let buttonDashboardBudgetTransactions = document.getElementById(
+  "button-dashboard-budget-transactions"
+);
+let buttonDashboardBudgetEdit = document.getElementById(
+  "button-dashboard-budget-edit"
+);
+let buttonDashboardWatchlistAdd = document.getElementById(
+  "button-dashboard-watchlist-add"
+);
 
 let spanDashboardHoldings = document.getElementById("span-dashboard-holdings");
 
-let divPagePools = document.getElementById('pools-page');
-let poolsBody = document.getElementById('pools-body');
+let divPagePools = document.getElementById("pools-page");
+let poolsBody = document.getElementById("pools-body");
 
 let divPageMarket = document.getElementById("market-page");
-let divMarketPageNavigationWrapper = document.getElementById("market-page-navigation-wrapper");
+let divMarketPageNavigationWrapper = document.getElementById(
+  "market-page-navigation-wrapper"
+);
 let divMarketListCrypto = document.getElementById("market-list-crypto");
 let divMarketListStocks = document.getElementById("market-list-stocks");
 
@@ -90,12 +102,24 @@ let spanMarketPage = document.getElementById("span-market-page");
 let spanHoldingsUsername = document.getElementById("span-holdings-username");
 let spanHoldingsValue = document.getElementById("span-holdings-value");
 
-let buttonHoldingsPerformance = document.getElementById("button-holdings-performance");
-let buttonHoldingsAddCryptoAsset = document.getElementById("button-holdings-add-crypto-asset");
-let buttonHoldingsAddStockAsset = document.getElementById("button-holdings-add-stock-asset");
-let buttonHoldingsPerformanceSmall = document.getElementById("button-holdings-performance-small");
-let buttonHoldingsAddCryptoAssetSmall = document.getElementById("button-holdings-add-crypto-asset-small");
-let buttonHoldingsAddStockAssetSmall = document.getElementById("button-holdings-add-stock-asset-small");
+let buttonHoldingsPerformance = document.getElementById(
+  "button-holdings-performance"
+);
+let buttonHoldingsAddCryptoAsset = document.getElementById(
+  "button-holdings-add-crypto-asset"
+);
+let buttonHoldingsAddStockAsset = document.getElementById(
+  "button-holdings-add-stock-asset"
+);
+let buttonHoldingsPerformanceSmall = document.getElementById(
+  "button-holdings-performance-small"
+);
+let buttonHoldingsAddCryptoAssetSmall = document.getElementById(
+  "button-holdings-add-crypto-asset-small"
+);
+let buttonHoldingsAddStockAssetSmall = document.getElementById(
+  "button-holdings-add-stock-asset-small"
+);
 
 let divPageHoldings = document.getElementById("holdings-page");
 let divHoldingsList = document.getElementById("holdings-list");
@@ -122,32 +146,86 @@ let settingsToggleTheme = document.getElementById("settings-toggle-theme");
 let settingsToggleSounds = document.getElementById("settings-toggle-sounds");
 
 let buttonSettingsLogout = document.getElementById("button-settings-logout");
-let buttonSettingsLogoutEverywhere = document.getElementById("button-settings-logout-everywhere");
-let buttonSettingsPassword = document.getElementById("button-settings-password");
-let buttonSettingsDeleteAccount = document.getElementById("button-settings-delete-account");
-let buttonSettingsUserRegistration = document.getElementById("button-settings-user-registration");
-let buttonSettingsStockAPIKey = document.getElementById("button-settings-stock-api-key");
-let buttonSettingsStockAPIType = document.getElementById("button-settings-stock-api-type");
+let buttonSettingsLogoutEverywhere = document.getElementById(
+  "button-settings-logout-everywhere"
+);
+let buttonSettingsPassword = document.getElementById(
+  "button-settings-password"
+);
+let buttonSettingsDeleteAccount = document.getElementById(
+  "button-settings-delete-account"
+);
+let buttonSettingsUserRegistration = document.getElementById(
+  "button-settings-user-registration"
+);
+let buttonSettingsStockAPIKey = document.getElementById(
+  "button-settings-stock-api-key"
+);
+let buttonSettingsStockAPIType = document.getElementById(
+  "button-settings-stock-api-type"
+);
 let buttonSettingsQRCode = document.getElementById("button-settings-qr-code");
 let buttonSettingsReset = document.getElementById("button-settings-reset");
-let buttonSettingsResetBudget = document.getElementById("button-settings-reset-budget");
-let buttonSettingsResetTransactions = document.getElementById("button-settings-reset-transactions");
-let buttonSettingsResetWatchlist = document.getElementById("button-settings-reset-watchlist");
-let buttonSettingsResetHoldings = document.getElementById("button-settings-reset-holdings");
-let buttonSettingsResetActivities = document.getElementById("button-settings-reset-activities");
-let buttonSettingsResetChatBot = document.getElementById("button-settings-reset-chatbot");
-let buttonSettingsImportSettings = document.getElementById("button-settings-import-settings");
-let buttonSettingsImportBudget = document.getElementById("button-settings-import-budget");
-let buttonSettingsImportTransactions = document.getElementById("button-settings-import-transactions");
-let buttonSettingsImportWatchlist = document.getElementById("button-settings-import-watchlist");
-let buttonSettingsImportHoldings = document.getElementById("button-settings-import-holdings");
-let buttonSettingsImportActivities = document.getElementById("button-settings-import-activities");
-let buttonSettingsExportSettings = document.getElementById("button-settings-export-settings");
-let buttonSettingsExportBudget = document.getElementById("button-settings-export-budget");
-let buttonSettingsExportTransactions = document.getElementById("button-settings-export-transactions");
-let buttonSettingsExportWatchlist = document.getElementById("button-settings-export-watchlist");
-let buttonSettingsExportHoldings = document.getElementById("button-settings-export-holdings");
-let buttonSettingsExportActivities = document.getElementById("button-settings-export-activities");
-let buttonSettingsDataWatchlist = document.getElementById("button-settings-data-watchlist");
-let buttonSettingsDataHolding = document.getElementById("button-settings-data-holding");
-let buttonSettingsDataActivity = document.getElementById("button-settings-data-activity");
+let buttonSettingsResetBudget = document.getElementById(
+  "button-settings-reset-budget"
+);
+let buttonSettingsResetTransactions = document.getElementById(
+  "button-settings-reset-transactions"
+);
+let buttonSettingsResetWatchlist = document.getElementById(
+  "button-settings-reset-watchlist"
+);
+let buttonSettingsResetHoldings = document.getElementById(
+  "button-settings-reset-holdings"
+);
+let buttonSettingsResetActivities = document.getElementById(
+  "button-settings-reset-activities"
+);
+let buttonSettingsResetChatBot = document.getElementById(
+  "button-settings-reset-chatbot"
+);
+let buttonSettingsImportSettings = document.getElementById(
+  "button-settings-import-settings"
+);
+let buttonSettingsImportBudget = document.getElementById(
+  "button-settings-import-budget"
+);
+let buttonSettingsImportTransactions = document.getElementById(
+  "button-settings-import-transactions"
+);
+let buttonSettingsImportWatchlist = document.getElementById(
+  "button-settings-import-watchlist"
+);
+let buttonSettingsImportHoldings = document.getElementById(
+  "button-settings-import-holdings"
+);
+let buttonSettingsImportActivities = document.getElementById(
+  "button-settings-import-activities"
+);
+let buttonSettingsExportSettings = document.getElementById(
+  "button-settings-export-settings"
+);
+let buttonSettingsExportBudget = document.getElementById(
+  "button-settings-export-budget"
+);
+let buttonSettingsExportTransactions = document.getElementById(
+  "button-settings-export-transactions"
+);
+let buttonSettingsExportWatchlist = document.getElementById(
+  "button-settings-export-watchlist"
+);
+let buttonSettingsExportHoldings = document.getElementById(
+  "button-settings-export-holdings"
+);
+let buttonSettingsExportActivities = document.getElementById(
+  "button-settings-export-activities"
+);
+let buttonSettingsDataWatchlist = document.getElementById(
+  "button-settings-data-watchlist"
+);
+let buttonSettingsDataHolding = document.getElementById(
+  "button-settings-data-holding"
+);
+let buttonSettingsDataActivity = document.getElementById(
+  "button-settings-data-activity"
+);
