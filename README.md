@@ -19,15 +19,15 @@ Bounty List :
 
 Transak : Using Transac use can buy any cryptocurrency right from DefiBoard application below is the demo video please click to watch
 
-[![Transak Video](https://user-images.githubusercontent.com/102347045/169801750-1a7fad4c-8272-4f72-b2b7-3716708de1aa.png)](https://vimeo.com/712807831 "https://vimeo.com/712807831 - Click to Watch!")
+[![Transak Video](https://user-images.githubusercontent.com/102347045/169801750-1a7fad4c-8272-4f72-b2b7-3716708de1aa.png)](https://vimeo.com/712807831 " - Click to Watch!")
 
 
 
 
-Covalent: we use covelnt api for fetch data that used to track diffrent curruncies, exchanges and liquidity and more..
+Covalent: using covelnt api for fetch data that used to track diffrent curruncies, exchanges and liquidity and more.. click below to watch quick demo 
 
-![covalent use](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)
 
+[![Covalent Video](https://user-images.githubusercontent.com/102347045/169799533-5343c22d-a0a1-4289-99b1-99eb17f3184d.png)](https://vimeo.com/712814396 - "Click to Watch!")
 
 
 
