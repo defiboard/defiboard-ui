@@ -9,14 +9,13 @@ let Web3Instance;
 const CMC_TOKEN_LIST =
   "https://api.coinmarketcap.com/data-api/v3/uniswap/all.json";
 
-  const uauthOptions = {
-    clientID: '43869268-0171-434e-a186-98c931079541',
-    redirectUri: 'https://defiboard.info',
-  
-    // Must include both the openid and wallet scopes.
-    scope: 'openid wallet',
- };
-  
+//   const uauthOptions = {
+//     clientID: '43869268-0171-434e-a186-98c931079541',
+//     redirectUri: 'https://defiboard.info',
+
+//     // Must include both the openid and wallet scopes.
+//     scope: 'openid wallet',
+//  };
 
 const providerOptions = {
   walletconnect: {
@@ -47,19 +46,19 @@ const providerOptions = {
       return provider;
     },
   },
-  'custom-uauth': {
-    // The UI Assets
-    display: UAuthWeb3Modal.display,
+  // 'custom-uauth': {
+  //   // The UI Assets
+  //   display: UAuthWeb3Modal.display,
 
-    // The Connector
-    connector: UAuthWeb3Modal.connector,
+  //   // The Connector
+  //   connector: UAuthWeb3Modal.connector,
 
-    // The SPA libary
-    package: UAuthSPA,
+  //   // The SPA libary
+  //   package: UAuthSPA,
 
-    // The SPA libary options
-    options: uauthOptions,
-  }
+  //   // The SPA libary options
+  //   options: uauthOptions,
+  // }
   /* See Provider Options Section */
 };
 
