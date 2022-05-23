@@ -1,0 +1,24 @@
+@font-face {
+	font-family:Arkhip;
+	src:url("../fonts/Arkhip.ttf");
+}
+
+@import url("../fonts/Inter/inter.css");
+
+html {
+	--border-radius:10px;
+	--blur:blur(2px);
+	--font-family:"Inter", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+@supports not (font-variation-settings: normal) {
+	html {
+		--font-family:"Inter", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	}
+}
+
+@supports (font-variation-settings: normal) {
+	html { 
+		--font-family:"Inter var", sans-serif; 
+	}
+}

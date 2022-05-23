@@ -1,0 +1,145 @@
+type User {
+	userID: Int!,
+	username: String!,
+	key: String!
+}
+
+type Activity {
+	activityID: Int!,
+	userID: Int!,
+	activityTransactionID: String!, 
+	activityAssetID: String!, 
+	activityAssetSymbol: String!, 
+	activityAssetType: String!, 
+	activityDate: String!, 
+	activityType: String!, 
+	activityAssetAmount: String!, 
+	activityFee: String!, 
+	activityNotes: String!, 
+	activityExchange: String!, 
+	activityPair: String!, 
+	activityPrice: String!, 
+	activityFrom: String!, 
+	activityTo: String!
+}
+
+type Message {
+	messageID: Int!,
+	userID: Int!,
+	message: String!,
+	messageDate: String!
+}
+
+type Transaction {
+	transactionID: String!,
+	userID: Int!,
+	transactionType: String!,
+	transactionDate: String!,
+	transactionCategory: String!,
+	transactionAmount: String!,
+	transactionNotes: String!
+}
+
+type Budget {
+	budgetID: Int!,
+	userID: Int!, 
+	budgetData: String!
+}
+
+type Setting {
+	settingID: Int!,
+	userID: Int!, 
+	userSettings: String!
+}
+
+type Holding {
+	holdingID: Int!, 
+	userID: Int!, 
+	holdingAssetID: String!,
+	holdingAssetSymbol: String!,
+	holdingAssetAmount: String!,
+	holdingAssetType: String!
+}
+
+type Watchlist {
+	watchlistID: Int!, 
+	userID: Int!, 
+	assetID: String!,
+	assetSymbol: String!,
+	assetType: String!
+}
+
+type Coin {
+	assetID: String!,
+	assetSymbol: String!,
+	data: String!
+}
+
+type Stock {
+	assetSymbol: String!,
+	historicalData: String!,
+	priceData: String!
+}
+
+type Query {
+	userExists(username: String!): String
+	readUser(token: String!, userID: Int!): User
+
+	readActivity(token: String!, userID: Int!): [Activity]
+
+	readMessage(token: String!, userID: Int!): [Message]
+
+	readTransaction(token: String!, userID: Int!): [Transaction]
+
+	readBudget(token: String!, userID: Int!): Budget
+
+	readSetting(token: String!, userID: Int!): Setting
+
+	readHolding(token: String!, userID: Int!): [Holding]
+
+	readWatchlist(token: String!, userID: Int!): [Watchlist]
+
+	readCoin(token: String!, userID: Int!, assetID: String!, assetSymbol: String!, currency: String!): Coin
+
+	readStockHistorical(token: String!, userID: Int!, keyAPI: String!, assetSymbol: String!): Stock
+	readStockPrice(token: String!, userID: Int!, keyAPI: String!, symbols: [String]!): [Stock]
+}
+
+type Mutation {
+	createUser(username: String!, password: String!, key: String!): String
+	updateUser(token: String!, userID: Int!, password: String!, key: String!): String
+	deleteUser(token: String!, userID: Int!): String
+
+	createActivity(token: String!, userID: Int!, activityAssetID: String!, activityAssetSymbol: String!, activityAssetType: String!, activityDate: String!, activityType: String!, activityAssetAmount: String!, activityFee: String!, activityNotes: String!, activityExchange: String!, activityPair: String!, activityPrice: String!, activityFrom: String!, activityTo: String!): String
+	updateActivity(token: String!, userID: Int!, activityTransactionID: String!, activityAssetID: String!, activityAssetSymbol: String!, activityAssetType: String!, activityDate: String!, activityType: String!, activityAssetAmount: String!, activityFee: String!, activityNotes: String!, activityExchange: String!, activityPair: String!, activityPrice: String!, activityFrom: String!, activityTo: String!): String
+	deleteActivity(token: String!, userID: Int!, activityID: Int!): String
+	deleteActivityAll(token: String!, userID: Int!): String
+
+	createSetting(token: String!, userID: Int!, userSettings: String!): String
+	updateSetting(token: String!, userID: Int!, userSettings: String!): String
+	deleteSetting(token: String!, userID: Int!): String
+
+	createBudget(token: String!, userID: Int!, budgetData: String!): String
+	updateBudget(token: String!, userID: Int!, budgetData: String!): String
+	deleteBudget(token: String!, userID: Int!): String
+
+	createMessage(token: String!, userID: Int!, message: String!): String
+	updateMessage(token: String!, userID: Int!, messageID: Int!, message: String!): String
+	deleteMessage(token: String!, userID: Int!, messageID: Int!): String
+	deleteMessageAll(token: String!, userID: Int!): String
+
+	createTransaction(token: String!, userID: Int!, transactionType: String!, transactionDate: String!, transactionCategory: String!, transactionAmount: String!, transactionNotes: String!): String
+	updateTransaction(token: String!, userID: Int!, transactionID: String!, transactionType: String!, transactionDate: String!, transactionCategory: String!, transactionAmount: String!, transactionNotes: String!): String
+	deleteTransaction(token: String!, userID: Int!, transactionID: String!): String
+	deleteTransactionAll(token: String!, userID: Int!): String
+
+	createHolding(token: String!, userID: Int!, holdingAssetID: String!, holdingAssetSymbol: String!, holdingAssetAmount: String!, holdingAssetType: String!): String
+	updateHolding(token: String!, userID: Int!, holdingID: Int!, holdingAssetID: String!, holdingAssetSymbol: String!, holdingAssetAmount: String!, holdingAssetType: String!): String
+	deleteHolding(token: String!, userID: Int!, holdingID: Int!): String
+	deleteHoldingAll(token: String!, userID: Int!): String
+
+	createWatchlist(token: String!, userID: Int!, assetID: String!, assetSymbol: String!, assetType: String!): String
+	updateWatchlist(token: String!, userID: Int!, watchlistID: Int!, assetID: String!, assetSymbol: String!, assetType: String!): String
+	deleteWatchlist(token: String!, userID: Int!, watchlistID: Int!): String
+	deleteWatchlistAll(token: String!, userID: Int!): String
+}

@@ -1,0 +1,7 @@
+node_modules
+.idea
+*.hprof
+mobile/key.txt
+desktop/dist
+api/data/*
+.DS_Store
